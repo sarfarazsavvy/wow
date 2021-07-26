@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "WOW",
+    "slug": "WOW",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "android": {
+      "package": "com.GDTC.WOW",
+      "permissions": [
+        "NOTIFICATIONS",
+        "USER_FACING_NOTIFICATIONS",
+        "LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_CONTACTS",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "useNextNotificationsApi": true,
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDH1BI-BJUiOP69alhfisepNLSB3L6JuSI"
+        },
+        "googleSignIn": {
+          "certificateHash": "10:DC:CF:9A:B6:36:A2:58:BC:42:16:1E:8E:B6:CF:AB:42:E9:9B:2F",
+          "apiKey": "AIzaSyAAuezMY2GrjCPMEnhsmHeghGwf-TtRZNc"
+        }
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "495434177049-rdpsclntlu01mojhsotl5gi8h9157ea5.apps.googleusercontent.com"
+        }
+      },
+      "bundleIdentifier": "com.GDTC.WOW"
+    },
+    "description": "",
+    "facebookAppId": "760644291379761",
+    "facebookDisplayName": "Women On Wheels"
+  }
+}
